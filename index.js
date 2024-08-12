@@ -13,7 +13,7 @@ import { getTeachers } from './controllers/userController.js';
 
 const app = express();
 const corsOptions = {
-  origin: 'https://heliverse-frontend-blue.vercel.app/',
+  origin: 'https://heliverse-frontend-blue.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH','OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   optionsSuccessStatus: 204 
