@@ -1,4 +1,4 @@
-import { compareSync } from 'bcrypt';
+
 import Classroom from '../models/classroomModel.js';
 import User from '../models/userModel.js';
 
